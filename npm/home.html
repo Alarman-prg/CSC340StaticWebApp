@@ -4,29 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Color Splash Studio : Home</title>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-body-tertiary">
-        <div class="container-fluid border">
-            <a class="navbar-brand" href="#" style="font-size: 30px;">Navbar</a>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary py-0">
+        <div class="container-fluid bg-success" style="height: 10vh;">
+            <a class="navbar-brand" href="home.html" style="font-size: 25px;">Color Splash Studio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="container navbar-nav justify-content-end border">
-                    <a class="nav-link" href="#">Documentation</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link" href="#">Contact Us</a>
+                <div class="container navbar-nav justify-content-end">
+                    <a class="nav-link px-2" href="services.html">Services</a>
+                    <a class="nav-link px-2" href="#">About</a>
+                    <a class="nav-link px-2" href="contact.html">Contact Us</a>
                 </div>
             </div>
         </div>
     </nav>
 
+    <main class="my-4">
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-md-3 p-1 m-1">
+                    <img src="https://picsum.photos/800" alt="..." class="img-fluid">
+                </div>
+                <div class="col-md-5 p-1 m-1">
+                    <h1>At our studio we strive to... </h1>
+                    <p class="mt-4">Empower individuals to achieve their full creative potential,
+                        we are committed to providing high-quality art supplies and fostering a vibrant
+                        community that celebrates artistic expression. Our mission is to inspire and supports
+                        artists of all levels, contributing to a world enriched by creativity and imagination.
+                    </p>
+                    <button type="button" class="btn btn-primary mt-3">Interested in joining our cause?</button>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col">
+                    <div class="bg-secondary text-white my-4 py-3 card text-center">
+                        <div class="cardbody">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, minus!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container">
+            <div class="card-group row-md-5 my-4">
+                <div class="card">
+                    <img src="https://picsum.photos/600" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Products</h5>
+                        <p class="card-text">We believe that the quality and innovation of our offerings
+                            are fundamental to meeting and exceeding the expectations of our customers.
+                            Through rigorous research, development, and a commitment to excellence, we ensure
+                            that each product we bring to the market reflects our dedication to delivering value and
+                            satisfaction. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/800" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">People</h5>
+                        <p class="card-text">In our business, we place a profound emphasis on people,
+                            recognizing that they are at the heart of our success and growth. Our commitment
+                            to prioritizing people extends beyond mere rhetoric—it is embedded in the fabric of our
+                            organizational culture. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/600" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Community</h5>
+                        <p class="card-text">we recognize our responsibility to the communities in which we operate.
+                            By actively engaging in social responsibility initiatives, supporting local causes, and
+                            promoting
+                            sustainable business practices, we aim to make a positive impact beyond our immediate
+                            business
+                            transactions. We believe that a successful business is one that enriches the lives of the
+                            people
+                            it touches, contributing positively to society and the environment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <div class="text-end p-3 bg-success">
+            © 2024 Copyright:
+            <a class="text-body" href="#">ColorSplashStudio.com</a>
+        </div>
+    </footer>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
